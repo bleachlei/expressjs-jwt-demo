@@ -37,7 +37,7 @@ app.post('/setup', function(req, res) {
     res.json({ success: true });
   });}
   else{
-  	res.json({ success: flase,msg:"错误参数" });
+  	res.json({ success: false,msg:"错误参数" });
   }
 });
 
